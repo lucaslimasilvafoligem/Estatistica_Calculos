@@ -18,13 +18,13 @@ public class Main {
                 dados = new Calcula(novosValores);
             }
             if (comando.equals("Rol")) {System.out.println(dados.rol());}
-            if (comando.equals("Moda")) {System.out.println(dados.moda());}
-            if (comando.equals("Mediana")) {System.out.println(dados.mediana());}
-            if (comando.equals("Media")) {System.out.println(dados.media());}
-            if (comando.equals("Desvio")) {System.out.println(dados.getDesvio());}
-            if (comando.equals("Variancia")) {System.out.println(dados.variancia());}
-            if (comando.equals("Desvio Padrao")) {System.out.println(dados.desvioPadrao());}
-            if (comando.equals("Cv")) {System.out.println(dados.cv() + "%");}
+            else if (comando.equals("Moda")) {System.out.println(dados.moda());}
+            else if (comando.equals("Mediana")) {System.out.println(dados.mediana());}
+            else if (comando.equals("Media")) {System.out.println(dados.media());}
+            else if (comando.equals("Desvio")) {System.out.println(dados.getDesvio());}
+            else if (comando.equals("Variancia")) {System.out.println(dados.variancia());}
+            else if (comando.equals("Desvio Padrao")) {System.out.println(dados.desvioPadrao());}
+            else if (comando.equals("Cv")) {System.out.println(dados.cv() + "%");}
         }
     }
 }

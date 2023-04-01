@@ -75,10 +75,7 @@ public class Calcula {
         return aux/numeros.length;
     }
     public double mediana() {
-        if(numeros.length % 2 == 0) {
-            System.out.println(numeros[(numeros.length/2) - 1] + " " + numeros[(numeros.length/2)]);
-            return (numeros[(numeros.length/2) - 1] + numeros[numeros.length/2])/2;
-        }
+        if(numeros.length % 2 == 0) {return (numeros[(numeros.length/2) - 1] + numeros[numeros.length/2])/2;}
         else {return numeros[(numeros.length/2)];}
     }
 
