@@ -105,7 +105,7 @@ public class Calcula {
         double[] desvios = desvio();
         double somatorio = 0;
         for (int i = 0; i < desvios.length; i++) {somatorio += desvios[i] * desvios[i];}
-        return somatorio/media();
+        return somatorio/(desvios.length);
     }
 
     public double desvioPadrao() {
